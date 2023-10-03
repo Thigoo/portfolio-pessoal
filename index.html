@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/layout.css">     
+    <title>Thiago Garcia</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header class="layout-header rounded">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid content ">
+                    <a class="navbar-brand" href="#home">Portfolio</a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projetos">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- consumo API -->
+        <section>
+            <div class="d-flex justify-content-center fle my-4">
+                <div class="layout-clima rounded px-1" id="app-clima">
+                    <img src="" alt="img-clima" id="img-clima" width="30">
+                    <p id="localizacao">carregando local...</p>
+                    <p id="temp">carregando temp...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="rounded sobre">
+                <div class="content row">
+                    <div class="texto col-12 col-md-6">
+                        <h3>Olá, eu sou o <span>Thiago Garcia</span></h3>
+                        <p>
+                            Sou um programador apaixonado por tecnologia e pelo seu impacto transformador no mundo. Minha abordagem é pautada pelo aprendizado contínuo, buscando constantemente aprimorar minhas habilidades. Estou comprometido em aplicar meu conhecimento em projetos que impulsionem a inovação e melhorem a vida das pessoas.
+                        </p>
+                        <a href="img/CV-Thiago_Garcia.pdf" target="_blank" download="CV-Thiago_Garcia" class="btn btn-secondary">Download CV</a>
+                    </div>
+
+                    <div class="img m-auto col-10 col-md-4 text-center">
+                        <img src="./img/thigo-dev.jpg" alt="" width="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- tecnologias -->
+        <section>
+            <div class="container-fluid tecnologias text-center rounded p-4">
+                <h2>Tecnologias</h2>
+                <div class="row">
+                    <div class="col-12 col-md-12 icones">
+                        <img class="" src="img/javascript.png" alt="logo javascript">
+                        <img class="" src="img/java.png" alt="logo javascript">
+                        <img class="" src="img/angular.png" alt="logo javascript">
+                        <img class="" src="img/typescript.png" alt="logo javascript">
+                        <img class="" src="img/github.png" alt="logo javascript">
+                        <img class="" src="img/sql.png" alt="logo javascript">
+                        <img class="" src="img/html.png" alt="logo javascript">
+                        <img class="" src="img/css.png" alt="logo javascript">
+                        <img class="" src="img/bootstrap.png" alt="logo javascript">
+                        <img class="" src="img/aws.png" alt="logo javascript">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container-fluid projetos text-center rounded p-4">
+                <h2>Alguns projetos</h2>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="img/espaco-criativo.png" class="d-block" alt="site espaço criativo">
+                            <p>FrontEnd para o E-commerce Espaço Criativo usando Angular, Typescript e Bootstrap.</p>
+                            <div class="links">
+                                <a class="btn btn-secondary"
+                                    href="https://angular-space-creative-ie8woryxn-thigoo.vercel.app/"
+                                    target="_blank">Projeto</a>
+                                <a class="btn btn-secondary" href="https://github.com/Thigoo/angular-space-creative"
+                                    target="_blank">Código</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/todo-lofi.png" class="d-block" alt="App todo list Lo-Fi">
+                            <p>Lista de tarefas com Javascript, salvando dados no LocalStorage e troca de temas.</p>
+                            <div class="links">
+                                <a class="btn btn-secondary" href="https://todo-list-lofi-ald6d0swm-thigoo.vercel.app/"
+                                    target="_blank">Projeto</a>
+                                <a class="btn btn-secondary" href="https://github.com/Thigoo/todo-list-lofi"
+                                    target="_blank">Código</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/+health.png" class="d-block" alt="...">
+                            <p>Calculadora IMC com Javascript +Health.</p>
+                            <div class="links">
+                                <a class="btn btn-secondary" href="https://thigoo.github.io/calculadora-IMC/"
+                                    target="_blank">Projeto</a>
+                                <a class="btn btn-secondary"
+                                    href="https://github.com/Thigoo/calculadora-IMC/tree/master"
+                                    target="_blank">Código</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/qrcode.png" class="d-block" alt="...">
+                            <p>Gerador de QR Code para qualquer link.</p>
+                            <div class="links">
+                                <a class="btn btn-secondary" href="https://thigoo.github.io/gerador-qrcode/"
+                                    target="_blank">Projeto</a>
+                                <a class="btn btn-secondary" href="https://github.com/Thigoo/gerador-qrcode/tree/master"
+                                    target="_blank">Código</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon seta" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon seta" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container-fluid tecnologias text-center rounded p-4">
+                <h2>Contato</h2>
+                <div class="row">
+                    <div class="texto-contato m-auto col-md-6">
+                        <p>Se você compartilha meu entusiasmo pela tecnologia ou está procurando um colaborador dedicado para seu próximo projeto, adoraria conversar! Vamos juntos explorar as infinitas possibilidades da tecnologia e criar um futuro melhor para todos.</p>
+                    </div>
+                    <div class="col-12 col-md-12 icones">
+                        <a href="mailto:thiagomvk08@gmail.com">
+                            <img class="" src="img/email.png" alt="logo javascript">
+                        </a>
+                        <a href="https://www.linkedin.com/in/thiago-garcia-dev/" target="_blank">
+                            <img class="" src="img/linkedin.png" alt="logo javascript">
+                        </a>
+                        <a href="https://github.com/Thigoo" target="_blank">
+                            <img class="" src="img/icon-github.png" alt="logo javascript">
+                        </a>
+                        <a href="https://wa.me/5524992465885" target="_blank">
+                            <img class="" src="img/whatsapp.png" alt="logo javascript">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a href="img/CV-Thiago_Garcia.pdf" target="_blank" download="CV-Thiago_Garcia" class="btn btn-secondary m-3">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="js/clima.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
