@@ -33,17 +33,17 @@ https://github.com/Thigoo/angular-space-creative/assets/90783156/f56f3dc7-3b9c-4
 Ao longo deste projeto, embarquei em uma jornada de autodescoberta e aprendizado, criando meu próprio portfólio pessoal usando tecnologias web essenciais: HTML, CSS, JavaScript e Bootstrap. O objetivo era não apenas mostrar minhas habilidades, mas também criar uma experiência envolvente e acessível em qualquer dispositivo, desde desktops até smartphones.
 </p>
 
-# Planejamento e Estruturação:
+## Planejamento e Estruturação:
 <p>
 Comecei identificando os objetivos do meu portfólio. Quais projetos, habilidades e informações gostaria de destacar? Isso me ajudou a definir a estrutura do site. Utilizei HTML para criar a base, dividindo o conteúdo em seções como "Sobre Mim", "Projetos" e "Contato".
 </p>
 
-# Design Responsivo com Bootstrap:
+## Design Responsivo com Bootstrap:
 <p>
 Bootstrap foi uma escolha natural para tornar o site responsivo. Utilizei sua grade flexível para garantir que o layout se adaptasse perfeitamente a qualquer tela. Isso envolveu o uso de classes CSS do Bootstrap para criar grids e componentes como navegação e botões.
 </p>
 
-# Estilo e Personalização:
+## Estilo e Personalização:
 <p>
 A customização foi uma parte crucial. Usei CSS para definir estilos únicos, cores e tipografia que refletissem minha personalidade e profissionalismo. O Bootstrap facilitou a personalização com classes modificadas para se adequar ao meu design.
 </p>
