@@ -25,7 +25,7 @@
 
 ## Aplicacao
 
-https://github.com/Thigoo/angular-space-creative/assets/90783156/f56f3dc7-3b9c-4c14-b887-5ac245bcead4
+https://github.com/Thigoo/portfolio-pessoal/blob/master/img/video.mp4
 
 ## Desenvolvimento
 
