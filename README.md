@@ -25,7 +25,7 @@
 
 ## Aplicacao
 
-https://github.com/Thigoo/portfolio-pessoal/blob/master/img/video.mp4
+https://github.com/Thigoo/portfolio-pessoal/assets/90783156/46a55acd-1eba-4475-9a6e-1d5aab8af86d
 
 ## Desenvolvimento
 
