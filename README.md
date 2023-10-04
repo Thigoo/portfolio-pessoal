@@ -2,11 +2,11 @@
 
 <img src="https://github.com/Thigoo/portfolio-pessoal/blob/master/img/img-site.png" width="500px"></img>
 
-### Topics 
+### Tópicos
 
-- [Descricao](#project-description)
+- [Descrição](#project-description)
 
-- [Aplicacao](#aplication)
+- [Aplicação](#aplication)
 
 - [Desenvolvimento](#development)
 
@@ -18,14 +18,14 @@
 
 - [Desenvolvedor](#developer)
 
-## Descricao
+## Descrição
 
 <p>Portfolio pessoal usando html, css, javascript e bootstrap. Consumindo a weather api para um widget de clima em tempo real no qual qualquer usuário permitindo a localização pode ver o clima local ao acessar o projeto.</p>
 <p>Site construído para divulgação profissional com alguns projetos já desenvolvidos de amostra, com a possibilidade de download do meu currículo para mais informações.</p>
 
-## Aplicacao
+## Aplicação
 
-https://github.com/Thigoo/angular-space-creative/assets/90783156/f56f3dc7-3b9c-4c14-b887-5ac245bcead4
+https://github.com/Thigoo/portfolio-pessoal/assets/90783156/46a55acd-1eba-4475-9a6e-1d5aab8af86d
 
 ## Desenvolvimento
 
