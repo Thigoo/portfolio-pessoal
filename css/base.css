@@ -2,16 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all .125s ease;
+
 }
 
 :root {
     --orange: #D65A31;
     --dark-gray: #222831;
     --alt-gray: #393E46;
+    --font-color: #fff;
+    --shadow-color: #393E46;
+    --hover-color: #f0f8ff;
+}
+
+.light {
+    --orange: #5C3D2E;
+    --dark-gray: #FFFFFF;
+    --alt-gray: #393E46;
+    --font-color: #393E46;
+    --shadow-color: #393E46;
+    --hover-color: #cecece;
 }
 
 body {
     min-height: 100vh;
-    background: rgb(34, 40, 49);
-    background: linear-gradient(180deg, rgba(34, 40, 49, 1) 0%, rgba(57, 62, 70, 1) 50%, rgba(225, 100, 40, 1) 100%);
+    background: linear-gradient(180deg, var(--dark-gray) 0%, var(--orange) 40%, var(--orange) 100%);
+
 }
